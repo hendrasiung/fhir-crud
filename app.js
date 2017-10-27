@@ -116,7 +116,8 @@ Vue.component('fhirResource', {
 var fhir = new Vue({
     el: '#fhir',
     data: {
-        baseUrl: 'http://spark.furore.com/fhir/',
+//        baseUrl: 'http://spark.furore.com/fhir/',
+        baseUrl: 'http://nprogram.azurewebsites.net/',
         resourceType: 'Patient',
         resources: [],
         currentResource: {},
