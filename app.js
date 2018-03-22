@@ -117,7 +117,7 @@ var fhir = new Vue({
     el: '#fhir',
     data: {
 //        baseUrl: 'http://spark.furore.com/fhir/',
-        baseUrl: 'https://stu3.test.pyrohealth.net/fhir',
+        baseUrl: 'https://stu3.test.pyrohealth.net/fhir/',
 //        baseUrl: 'http://fhir-dstu2-nprogram.azurewebsites.net/',
         resourceType: 'Patient',
         resources: [],
